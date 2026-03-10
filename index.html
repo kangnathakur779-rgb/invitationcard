@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <style>
+.outer{
+   background-color:rgb(133, 84, 138);
+   height:900px;
+   margin: 50px;
+   text-align: center;
+   display: flex;
+
+}
+.inner{
+   width: 80%;
+   height: 80%;
+   margin: auto;
+   /*justify-items: center;*/
+   background-image: linear-gradient(to right, #7e92eb, #764ba2); 
+   border-radius: 20PX;
+   box-shadow: 0 0 10px #fff, 0 0 20px #f48ee7d4;
+   border-width: 5px;
+   /*border-style: solid;*/
+   border-style: double;
+   border-color: darkslateblue;
+   
+   outline: 20PX;
+   outline-width: 5px;
+   /*border-style: solid;*/
+   outline-style: double;
+   outline-color: darkslateblue;
+   /*outline-offset: 30px;*/
+
+}
+.inner h1{
+    text-align: center;
+    color: bisque;
+    text-shadow: 0 0 10px #fff, 0 0 20px #8ef4ecd4;
+    font-size: 50px;
+}
+.inner h2{
+    text-align: center;
+    color: rgb(56, 1, 49);
+    text-shadow: 0 0 10px #fff, 0 0 20px #e8c1aed4;
+    font-size: 20px;
+}
+.inner #weds{
+    font-size: 30px;
+    color: pink;
+    margin: 10px;
+    text-shadow: rgb(155, 71, 155);
+
+}
+.inner #shizuka{
+    font-size:50px;
+    color: rgb(75, 75, 211);
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+} 
+.inner #nobita{
+    font-size: 50px;
+    color: rgb(67, 67, 194);
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inner img{
+    height: 230px;
+    width: 200px;
+   
+}
+.row{
+    display: flex;
+}
+.column1{
+    flex: 1;
+    /*background-color: #7e92eb;*/
+}
+.column1 ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    color:rgb(29, 6, 71);
+    margin-right: 40px;;
+
+
+}
+.column2 {
+    flex: 1;
+    /*background-color: #7e92eb;*/
+}
+.column2 ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    color:rgb(29, 6, 71);
+    margin-right: 40px;;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+        <h1>WEDDING CEREMONY</h1>
+        <img src="static/img/wedding.jpg.jpg" alt="image" height="300" width="300">
+            <h2>
+                <span><i>Please join us in the ceremony.</i></span>
+                <span><i>Date : 05/ 03/ 2025</i></span>
+            </h2>
+            <hr>
+                    <h1>
+                        <span id="nobita">Nobita</span> <span id="weds">WEDS</span> <span id="shizuka">Shizuka</span>
+                    </h1>
+            <div class="row">
+                <div class="column1">
+                    <ul>
+                        <li>BRIDE: Shizuka</li>
+                        <li>D/O: Mrs. Minamoto</li>
+                        <li>Tokyo, Japan</li>
+                    </ul>
+
+                </div>
+                <div class="column2">
+                    <ul>
+                        <li>GROOM: Nobita</li>
+                        <li>S/O: Mrs. Nobi</li>
+                        <li>Tokyo, Japan</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
